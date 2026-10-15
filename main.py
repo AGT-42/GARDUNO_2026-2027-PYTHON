@@ -1,12 +1,7 @@
-a = int(input("Number 1: ")) #1
-b = int(input("Number 2: ")) #2
+Name = input("what's your name? ")
+Age = int(input("What year were you born? "))
+info = input("Please enter 3 hobbies you have separated by spaces:  ").split()
 
-
-a = a + b # 1 + 2 = 3
-b = a - b  # 3 - 2 = 1
-a = a - b  # 3 - 1 = 2
-
-
-print(a)
-print(b)  
+Age = 2026 - Age
+print(f"Hello {Name}, you are {Age} years old and you love {info[0]} and {info[2]}, but you love {info[1]} most!")
 
